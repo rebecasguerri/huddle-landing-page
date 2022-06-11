@@ -70,8 +70,9 @@ nav img {
 article h1{
     margin-bottom: 1rem;
 }
-article p{
+article p {
     margin-bottom: 1rem;
+    font-size: 0.9rem;
 }
 .btn-free{
  border: none;
@@ -220,27 +221,6 @@ footer{
     padding-right: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*BUTTONS*/
 #btn-nav {
     background-color: #ffff;
@@ -274,4 +254,109 @@ footer{
     color: rgb(255, 82, 192);
     cursor: pointer;
   
+}
+
+
+
+
+
+
+
+
+@media (max-width: 425px){
+    nav img {
+        width: 27vw;
+        height: 3vh;
+    }
+    #btn-nav {
+        width: 30vw;
+        cursor: pointer;
+    }   
+    .header-flex {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .header-flex article {
+        margin: auto;
+        text-align: center;
+    }
+    #header-img img {
+        width: 76vw;
+    }
+    #header-img {
+        margin: 2rem auto;
+    }
+
+    article h1 {
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    article p {
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+
+
+    .main-area {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .main-area img {
+        order: -1;
+        width: 62vw;
+    }
+    .main-area article {
+        margin: auto 0;
+        width: 100%;
+    }
+
+    .aside-area {
+        width: 50vw;
+    }
+    aside {
+        padding: 0 2rem;
+    }
+    .footer-area {
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-top: 3rem;
+    }
+    .location p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+    .location img {
+        width: 11%;
+        height: 11%;
+        margin: auto 0;
+        margin-right: 0.4rem;
+    }
+    .phone img {
+        width: 11%;
+        height: 10%;
+        margin: auto 0;
+        margin-right: 0.4rem;
+    }
+    .email img {
+        width: 11%;
+        height: 11%;
+        margin: auto 0;
+        margin-right: 0.4rem;
+    }
+    .ul {
+        margin: auto 0;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+    
+    
 }
